@@ -1,0 +1,7 @@
+Ans 1. # Select * From Employees
+
+Ans 2 # Select FirstName, LastName, Birthdate, Address, City, State
+        From Employees;
+
+Ans 3 # Select * From Tracks
+        LIMIT 20;
