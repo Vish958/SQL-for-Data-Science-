@@ -1,2 +1,2 @@
 # SQL-for-Data-Science-Coursera 
-SQL for Data Science Week 1 Solutions
+SQL for Data Science Week 1 coding Solutions
