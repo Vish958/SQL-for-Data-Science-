@@ -5,13 +5,13 @@ SQL for Data Science Week 1 coding Solutions
 
 #Supported Database Servers
 
-**MySQL**
-**SQL Server
-*SQL Server Compact
-*SQLite
-*PostgreSQL
-*Oracle
-*DB2
+* MySQL
+* SQL Server
+* SQL Server Compact
+* SQLite
+* PostgreSQL
+* Oracle
+* DB2
 
 # Data Model
 
@@ -35,39 +35,39 @@ For embedded databases, SQLite and SQL Server Compact, it is also provided the e
 
 Notes:
 
-**MySQL
+* MySQL
 Tested with MySQL Server 5.1.
 The CreateMySql.bat script uses localhost server with the following user/password: root/p4ssw0rd. Change this file to match your settings before running it.
 
-**Oracle
+* Oracle
 Tested with Oracle Database 10g Express Edition (XE).
 The CreateOracle.sql creates a new user/password: chinook/p4ssw0rd. Change this script if you want a different user/password.
 
-**SQL Server
+* SQL Server
 Tested with SQL Server Express 2008.
 
-**SQL Server Compact
+* SQL Server Compact
 
 Tested with SQL Server Compact 3.5 SP1.
 We included the compact databases (sdf files) using version 3.5.8080.0. If you prefer to create your own compact database, then you can use the .sqlce script with SQL Server Management Studio Express tool.
 
-**SQLite
+* SQLite
 Tested with SQLite 3.7.3
 
 ## Development
 
 # System Requirements
 
-**Visual Studio 2012**
-**SQL Server 2008 Express**
-**Oracle Database 11g Express Edition Release 2 (XE)
-**MySQL Community Server 5.5.28
-**Choose all default settings when installing, but on the MySQL Server Instance installer make sure to select:
-**Best Support For Multilingualism
-**Include Bin Directory in Windows PATH
-**SQLite 3.7 Command Line
-**DB2 Express-C
-**PostgreSQL
+* Visual Studio 2012**
+* SQL Server 2008 Express**
+* Oracle Database 11g Express Edition Release 2 (XE)
+* MySQL Community Server 5.5.28
+* Choose all default settings when installing, but on the MySQL Server Instance installer make sure to select:
+* Best Support For Multilingualism
+* Include Bin Directory in Windows PATH
+* SQLite 3.7 Command Line
+* DB2 Express-C
+* PostgreSQL
 
 # Building and Generating the SQL Scripts
 
