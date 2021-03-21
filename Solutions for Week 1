@@ -20,3 +20,35 @@ Ans 2 *Select FirstName, LastName, Birthdate, Address, City, State
 
 Ans 3 *Select * From Tracks
        LIMIT 20;
+
+#Question 2 
+
+Retrieve the FirstName, LastName, Birthdate, Address, City, and State from the Employees table.
+
+Which of the employees listed below has a birthdate of 3-3-1965?
+
+:A: Steve
+
+:B: Nancy
+
+:C: Michael
+
+:D: Robert
+
+:E: Jane
+
+Sol: Select FirstName, LastName, Birthdate, Address, City, State
+     From Employees;
+
+Ans 2: *Steve*
+
+Questions 2:
+Retrieve all the columns from the Tracks table, but only return 20 rows.
+
+What is the runtime in milliseconds for the 5th track, entitled "Princess of the Dawn"? 
+Note: You will need to scroll to the right to see it, and you may want to copy and paste the number to ensure it is entered correctly.
+
+Ans 3: Select * From tracks
+       LIMIT 20;
+       
+       
