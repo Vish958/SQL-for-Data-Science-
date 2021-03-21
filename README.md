@@ -1,7 +1,7 @@
 # SQL-for-Data-Science-Coursera (Chinook-Database)
 SQL for Data Science Week 1 coding Solutions
 
-* Chinook is a sample database available for SQL Server, Oracle, MySQL, etc. It can be created by running a single SQL script. Chinook database is an alternative to the Northwind database, being ideal for demos and testing ORM tools targeting single and multiple database servers.
+ Chinook is a sample database available for SQL Server, Oracle, MySQL, etc. It can be created by running a single SQL script. Chinook database is an alternative to the Northwind database, being ideal for demos and testing ORM tools targeting single and multiple database servers.
 
 #Supported Database Servers
 
@@ -71,14 +71,14 @@ Tested with SQLite 3.7.3
 
 # Building and Generating the SQL Scripts
 
-**Open the solution file ChinookDatabase.sln in Visual Studio.**
+* Open the solution file ChinookDatabase.sln in Visual Studio.**
 
-**If you want to use the data from your own iTunes library, then replace the file ChinookDatabase\DataSources_Xml\Source\iTunes Music Library.xml with your version**.
-**In app.config, verify that the connection strings are matching any changes you made to username/password above. Also, the Oracle connection string uses the Express Edition, e.g. Data Source=xe. So, change it if you are using a different Oracle edition**.
-**On the Solution Explorer, click on your Solution and then click on the Transform All Templates button at the Solution Explorer buttons bar.
-**Rebuild the solution.
-**Verify that your database servers are properly set:
-**The batch file DataSources\CreateMySql.bat uses the root user with the password p4ssw0rd.
-**The generated Oracle SQL script creates a new user chinook, with the password p4ssw0rd. You might want to change this to use a different user/password.
-**Create the database using the appropriate scripts.
-**Run the database tests in ChinookDatabase.Test to make sure your database was created properly.
+* If you want to use the data from your own iTunes library, then replace the file ChinookDatabase\DataSources_Xml\Source\iTunes Music Library.xml with your version**.
+* In app.config, verify that the connection strings are matching any changes you made to username/password above. Also, the Oracle connection string uses the Express Edition, e.g. Data Source=xe. So, change it if you are using a different Oracle edition**.
+* On the Solution Explorer, click on your Solution and then click on the Transform All Templates button at the Solution Explorer buttons bar.
+* Rebuild the solution.
+* Verify that your database servers are properly set:
+* The batch file DataSources\CreateMySql.bat uses the root user with the password p4ssw0rd.
+* The generated Oracle SQL script creates a new user chinook, with the password p4ssw0rd. You might want to change this to use a different user/password.
+* Create the database using the appropriate scripts.
+* Run the database tests in ChinookDatabase.Test to make sure your database was created properly.
